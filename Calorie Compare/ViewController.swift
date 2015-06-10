@@ -41,6 +41,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
 		var error : NSError? = nil
 		
 		// testing github!
+		// new branch!!
 		let input : AVCaptureDeviceInput? = AVCaptureDeviceInput.deviceInputWithDevice(device, error: &error) as? AVCaptureDeviceInput
 		
 		// If our input is not nil then add it to the session, otherwise we’re kind of done!
